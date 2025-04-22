@@ -1,7 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 public class Main {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         BmiService service = new BmiService();
 
         // вес в кг
@@ -10,7 +10,8 @@ public class Main {
         // рост в см
         int height = 167;
 
-        int bmi = service.calculate(weight, height);
+        int bmi = service.calculateBmi(weight, height);
         System.out.println(bmi);
     }
+
 }
