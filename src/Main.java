@@ -5,12 +5,12 @@ public class Main {
         BmiService service = new BmiService();
 
         // вес в кг
-        int weight = 55;
+        int kg = 55;
 
         // рост в см
-        int height = 167;
+        int cm = 167;
 
-        int bmi = service.calculateBmi(weight, height);
+        int bmi = service.calculateBmi(kg, cm);
         System.out.println(bmi);
     }
 
